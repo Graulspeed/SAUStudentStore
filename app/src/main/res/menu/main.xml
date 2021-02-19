@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item
+        android:id= "@+id/textbooks"
+        android:title="@string/textbooks"
+        android:icon="@drawable/books"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/supplies"
+        android:title="@string/school_supplies"
+        android:icon="@drawable/pencil"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id= "@+id/technology"
+        android:title="@string/tech"
+        android:icon="@drawable/laptop"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id= "@+id/apparel"
+        android:title="@string/apparel"
+        android:icon="@drawable/clothes"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id= "@+id/decor"
+        android:title="@string/decor"
+        android:icon="@drawable/couch"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id= "@+id/misc"
+        android:title="@string/misc"
+        app:showAsAction="ifRoom" />
+
+
+</menu>

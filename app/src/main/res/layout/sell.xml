@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<TextView
+    android:id="@+id/sell_stuff"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Sell Your Stuff"
+    android:textSize="50sp"
+    />
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title:"
+        android:textSize="30sp"
+        android:layout_below="@+id/sell_stuff"
+        />
+    <EditText
+        android:id="@+id/addTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_below="@id/titleText"
+        />
+
+    <TextView
+        android:id="@+id/imageText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Images:"
+        android:textSize="30sp"
+        android:layout_below="@id/addTitle"
+        />
+    <Button
+        android:id="@+id/addImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Browse Files"
+        android:textSize="30sp"
+        android:padding="15dp"
+        android:onClick="onClick"
+        android:layout_below="@id/imageText"/>
+
+    <TextView
+        android:id="@+id/descriptionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description:"
+        android:textSize="30sp"
+        android:layout_below="@+id/addImage"
+        />
+    <EditText
+        android:id="@+id/addDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_below="@id/descriptionText"
+        />
+
+    <TextView
+        android:id="@+id/priceText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price:"
+        android:textSize="30sp"
+        android:layout_below="@id/addDescription"
+        />
+    <EditText
+        android:id="@+id/addPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_below="@id/priceText"
+        />
+
+    <TextView
+        android:id="@+id/contactText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Info:"
+        android:textSize="30sp"
+        android:layout_below="@id/addPrice"
+        />
+    <EditText
+        android:id="@+id/addContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_below="@id/contactText"
+        />
+
+</RelativeLayout>

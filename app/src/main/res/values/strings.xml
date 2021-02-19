@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SAU Student Store</string>
+    <string name="textbooks">Textbooks</string>
+    <string name="school_supplies">School Supplies</string>
+    <string name="tech">Technology</string>
+    <string name="apparel">Apparel</string>
+    <string name="misc">Misc.</string>
+    <string name="decor">Decor</string>
+    <string name="sell">Sell Your Stuff</string>
+</resources>
