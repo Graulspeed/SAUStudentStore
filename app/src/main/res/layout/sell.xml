@@ -79,12 +79,28 @@
         />
 
     <TextView
+        android:id="@+id/tradeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Acceptable Trades:"
+        android:textSize="30sp"
+        android:layout_below="@+id/addPrice"
+        />
+    <EditText
+        android:id="@+id/addTrade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_below="@id/tradeText"
+        />
+
+    <TextView
         android:id="@+id/contactText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Contact Info:"
         android:textSize="30sp"
-        android:layout_below="@id/addPrice"
+        android:layout_below="@id/addTrade"
         />
     <EditText
         android:id="@+id/addContact"
