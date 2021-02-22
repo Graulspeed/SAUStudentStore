@@ -82,7 +82,7 @@
         android:id="@+id/tradeText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Acceptable Trades:"
+        android:text="Acceptable Trades:\n(Optional)"
         android:textSize="30sp"
         android:layout_below="@+id/addPrice"
         />
